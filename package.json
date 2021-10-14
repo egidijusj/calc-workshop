@@ -1,0 +1,25 @@
+{
+  "name": "adder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_OPTIONS=--experimental-vm-modules jest --watch --testPathPattern=prefix --testNamePattern=addition$"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.10.4",
+    "jest": "^27.2.5",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  },
+  "jest": {
+    "transform": {
+      "ts$": "ts-jest"
+    }
+  }
+}
